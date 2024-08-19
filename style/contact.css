@@ -1,0 +1,310 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(176.32deg, #2211E7 -26.24%, #383837 96.98%);
+
+}
+/* Caminho da pag */
+.breadcrumb {
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: 30px 0;
+}
+.breadcrumb a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.breadcrumb span {
+    color: #E47500;
+}
+
+/* Div mapa */
+.containerMapa {
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.containerMapa h1 {
+    margin-bottom: 30px;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 59.56px;
+    text-align: center;
+}
+
+.containerMapa p {
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.containerMapa img {
+    width: 1060px;
+    height: 537.77px;
+    top: 431px;
+    left: 185px;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*  */
+
+/* Estilo da seção de informações abaixo do mapa */
+.info {
+    display: flex;
+    justify-content: space-between; /* Espaçamento igual entre os itens */
+    align-items: center;
+    max-width: 1060px; /* Largura máxima alinhada com o mapa */
+    margin: 50px auto 0 auto; /* Centraliza a seção abaixo do mapa */
+    padding: 20px 0;
+}
+.follow {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px; 
+}
+.follow h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.sociaisI {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    font-size: 18px;
+}
+.sociaisI a {
+    align-items: center;
+    background-color: rgba(28, 20, 15, 1);
+    font-size: 20px; 
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    left: 133px; 
+}
+
+/* Estilo do telefone e localização */
+.phone, .localizacao {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.phone img, .localizacao img {
+    width: 24px; 
+    height: 24px;
+    margin-top:40px;
+
+}
+
+.textMaps{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 100px;
+}
+/* Linha de separação entre os itens */
+.info > div:not(:first-child)::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 102px;
+    background-color: rgba(210, 210, 210, 1);
+    margin-left: 20px; /* Espaço antes e depois da linha */
+    margin-right: 20px;
+    /* border: 1px solid rgba(255, 255, 255, 1); */
+}
+
+
+
+/* div Formulario */
+.formDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(28, 20, 15, 1);
+}
+.forma {
+    z-index: 10; /* Certifique-se de que o background tenha um valor menor */
+}
+.forma {
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 40px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+}
+.formDiv {
+    min-height: 100vh;
+}
+.forma h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.forma p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.input-group {
+    display: flex;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.input-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.56px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    color: rgba(79, 79, 79, 1);
+}
+
+.input-container label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.input-container input,
+.input-container textarea {
+    width: auto;
+    top: 1527px;
+    left: 385px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.07);
+    color: #FFFFFF;
+    border: 0.6px solid rgba(206, 206, 206, 1);
+    border-radius: 9px
+}
+
+.input-container textarea {
+    resize: none;
+    height: 150px;
+}
+.span-required{
+    font-size: 12px;
+    display: none;
+    margin: 3px 0 0 1px;
+    color: #FFFFFF;
+}
+
+/* botão à direita */
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buttonSubmit {
+    background-color: rgba(220, 112, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 193px;
+    height: 57px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+/* email ultimo */
+
+.containerEmail{
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 150px;
+
+}
+.containerEmail h2{
+    font-size: 30px;
+}
+.containerEmail p{
+    font-size: 17px;
+}
+.continue {
+    background: rgba(7, 7, 7, 1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 10px;
+}
+.continue h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.continue p{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Button Continue */
+.email-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    transform: translateY(-80px);
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgba(137, 137, 137, 1);
+    width: 350px;
+    height: 25px;
+    border: none;
+    border-radius: 8px 0px 0px 0px;
+    transform: translateX(50px);
+}
+
+.continue-button {
+    align-items: center;
+    background-color: rgba(220, 112, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transform: translateX(-60px);
+
+}

@@ -1,0 +1,352 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px; 
+    height: 45px;
+}
+
+.header > * {
+    margin-top: 37px; 
+    margin-right: 20px;
+    margin-left: 10px;
+    margin: 0 20px
+}
+
+.logo {
+    width: 82px;
+    height: 45px;
+    margin-right: 100px;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 44.51px;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu {
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 80px;
+    list-style: none;
+}
+
+
+.menu li a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+#btnContact {
+    display: inline-block;
+    width: 131.77px;
+    height: 41.34px;
+    border-radius: 6px;
+    background: rgba(250, 144, 33, 1);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    line-height: 41.34px; /* Centraliza verticalmente o texto */
+    opacity: 1;
+    transition: background-color 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+#btnContact:hover {
+    background-color: #e0891a;
+}
+
+.textHome {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.textAbout {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.textPortf {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.textNews {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/* Footer */
+.footer {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(7, 7, 7, 1);
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+    
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px 10px; /* 10px de preenchimento à esquerda, 20px à direita */
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer .footer-section {
+    margin: 0 20px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+.footer, .footer-section a {
+    line-height: 2;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    padding: 5px 0;
+    border-top: 0.8px solid rgba(210, 210, 210, 1);
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.logoFooter {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36.84px;
+    text-align: left;
+    width: 68px;
+    height: 37px;
+    font-weight: bolder;
+}
+
+.AboutContactFooter {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 40px;
+}
+
+.footer-section p {
+    width: 372px;
+    height: 58px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer-section li {
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    transform: translateX(-40px);
+}
+
+.aboutUsFoot {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.81px;
+    text-align: left;
+
+}
+.socials {
+    justify-content: flex-end; 
+    margin-left: 100px
+}
+.socials a {
+    width: 50px; 
+    height: 50px; 
+    margin: 10px; 
+    color: rgba(0, 0, 0, 1);
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 50%; /* Ícone arredondado */
+    text-decoration: none;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.TelefonContact{
+    margin-top:40px;
+}
+
+
+/* Responsividade */
+
+/* Estilos para tablets */
+@media (max-width: 1024px) and (min-width: 641px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Garante que o logo e o menu fiquem nas extremidades */
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .logo {
+        margin-right: 20px; /* Reduz o espaço entre o logo e o menu */
+        font-size: 20px; 
+    }
+
+    .menu {
+        flex-direction: row; 
+        gap: 5px; /* Diminui o espaço entre os itens do menu */
+        justify-content: flex-end; 
+        width: auto;
+    }
+
+    .menu li {
+        margin: 0;
+        width: auto;
+    }
+
+    .menu li a {
+        padding: 5px 10px; 
+        font-size: 14px; 
+        text-align: center;
+    }
+
+    #btnContact {
+        padding: 5px 10px; 
+        font-size: 14px; 
+        width: auto;
+    }
+}
+
+/* Estilos para celulares */
+@media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        font-size: 18px; 
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .menu li a {
+        padding: 8px 0;
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    #btnContact {
+        padding: 5px 10px;
+        font-size: 14px;
+        width: auto;
+        box-sizing: border-box;
+    }
+}
+
+/* Estilos para desktops */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos para tablets */
+@media (max-width: 1024px) and (min-width: 641px) {
+    .footer-content {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .footer .footer-section {
+        margin: 0;
+        width: auto;
+    }
+
+    .footer .footer-section a {
+        padding: 5px 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .logoFooter {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .socials {
+        margin-left: 20px;
+    }
+}
+
+/* Estilos para celulares */
+@media (max-width: 640px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .footer-section {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .footer .footer-section a {
+        padding: 8px 0;
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .logoFooter {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .socials {
+        margin-left: 0;
+    }
+}
+

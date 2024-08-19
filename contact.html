@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1> Teste</h1>
+    <div id="header"></div>
+    <main>
+        <nav class="breadcrumb">
+            <a href="home.html">Home</a> &gt;
+            <span>Contact us</span>
+        </nav>
+        <div>
+            <div class="containerMapa">
+                <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="imagens/mapa.svg" alt="mapa">
+                <div class="info">
+                    <div class="follow">
+                        <h3>Follow us</h3>
+                        <div class="sociaisI">
+                            <a href="https://pt-br.facebook.com/login/device-based/regular/login/"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://x.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/login/pt"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <img src="imagens/phone.svg" alt="telefone">
+                        <p class="textMaps">+94 4444 5555 6</p>
+                    </div>
+                    <div class="localizacao">
+                        <img src="imagens/Vector.svg" alt="Localização">
+                        <p class="textMaps">but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formDiv">
+            <div class="forma">
+                <h2>Say hello</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                <form  id="formu" method="post">
+                    <div class="input-group">
+                        <div class="input-container">
+                            <label for="nome">First Name</label>
+                            <input type="text" id="nome" class="validacao" 
+                            placeholder="Informe nome" >
+                            <!-- oninput="nameValidacao()" -->
+                            <!-- <span class="span-required">preenchimento obrigatório</span> -->
+                        </div>
+                        <div class="input-container">
+                            <label for="lastNome">Last Name</label>
+                            <input type="text" id="lastNome"  class="validacao"  placeholder="Informe sobrenome" >
+                            <!-- <span class="span-required">preenchimento obrigatório</span> -->
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email"  class="validacao" placeholder="Informe um email">
+                        <!-- <span class="span-required">preenchimento obrigatório</span> -->
+                    </div>
+                    <div class="input-container">
+                        <label for="msg">Message</label>
+                        <textarea id="msg"  class="validacao" placeholder="Informe a mensagem"></textarea>
+                        <!-- <span class="span-required">preenchimento obrigatório</span> -->
+                    </div>
+                    <div class="button">
+                        <button id="buttonSubmit"  type="submit">Get in touch</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="containerEmail" id="containerEmail">
+            <h2>Lorem Ipsum</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry.</p>
+                <div class="continue">
+                    <h3>Stay in the loop</h3>
+                    <p>Subscribe to receive the latest news and updates about TDA. <br> We promise not to spam you!</p>
+                    <div class="email-wrapper">
+                        <input type="email" id='emailContinue' placeholder="Enter email address" class="email-input" />
+                        <button type="submit" id="continue-button" class="continue-button">Continue</button>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <div id="footer"></div>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
