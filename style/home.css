@@ -1,4 +1,232 @@
-body{
+body {
     background: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%);
+}
+
+/* Estilos para a imagem do joystick */
+.joystick {
+    position: absolute;
+    top: -4vw;
+    left: 60%;
+    transform: translateX(-19%);
+    width: 30vw;
+    height: auto;
+    z-index: 1;
+}
+
+.text-content{
+
+    color: rgba(255, 255, 255, 1);
 
 }
+/* Container for the icons */
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vw;
+    /* Adjust based on joystick positioning */
+    position: relative;
+    z-index: 2;
+    /* Make sure the icons appear above the joystick */
+}
+
+/* Styles for the icons */
+.icon-container img {
+    width: 7vw;
+    /* Adjust the size as needed */
+    height: auto;
+}
+
+/* Currently */
+.containerCurrently {
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Rubik", sans-serif;
+    position: relative;
+}
+
+.imagens {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.image {
+    width: 252px;
+    height: 277px;
+    top: 1008px;
+    left: 17px;
+    gap: 150px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.fired {
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.containerCurrently h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 58.13px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.containerCurrently button {
+    float: right;
+    transform: translateY(-80px);
+    margin-right: 77px;
+    background-color: #4b4dd5;
+    width: 139px;
+    height: 57px;
+    border: none;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+.containerCurrently h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 65.63px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.curh3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.containerAranha h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56.25px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.containerAranha p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 50px;
+}
+
+.containerAranha img {
+    width: 95%;
+    height: 462px;
+    /* border-radius: 5px 0px 0px 0px; */
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Our */
+.our {
+    /* display: flex; */
+    align-items: center;
+    margin-left: 30px;
+    /* background-color: aqua; */
+    font-family: "Poppins", sans-serif;
+}
+
+.our h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.our p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+
+.ourImagem1 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.ourImagem1 img {
+    width: 350px;
+    height: 223px;
+    top: 3738px;
+    left: 135px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.ourImagem2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.ourImagem2 img {
+    top: 3738px;
+    left: 135px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.play {
+    width: 246px;
+    height: 223px;
+    top: 3994px;
+    left: 135px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.imagour {
+    width: 401px;
+    height: 223px;
+
+}
+
+.ourButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.ourButton button {
+    background-color: #4b4dd5;
+    width: 139px;
+    height: 57px;
+    border: none;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    margin-top: 22%;
+}
+
+.iconsL {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    gap: 10px;
+}
+
+.iconsL h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.iconsL p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+
+
+}
+
